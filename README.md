@@ -1,15 +1,15 @@
 # EEG analysis pipeline
 
-###Requirements:  
+### Requirements:  
  - MATLAB
  - Fieldtrip toolbox  (http://www.fieldtriptoolbox.org/)
  - libsvm  (https://www.csie.ntu.edu.tw/~cjlin/libsvm/)
  
- ###Instructions:  
+ ### Instructions:  
  - Run *delete_duplicates_and_merge_physio(subject_name)* once to prepare SQLite files for analysis
  - Run *EEGanalysis(subject_name)*  to decode modelled reward prediction errors from EEG data
  
- ###Scripts:
+ ### Scripts:
  - *delete_duplicates_and_merge_physio.m* - prepares SQLite files for analysis
  - *EEGanalysis.m* - decode modelled reward prediction errors from EEG data
  - *readEEG.m* - loads subject's EEG data
